@@ -1,0 +1,44 @@
+.darkgrey {
+    background-color: #44464a;
+    color: #d7d3c7;
+}
+
+.darkgrey a {
+    color: #d7d3c7;
+}
+
+.privacy-policy {
+    background-color: #000;
+    color: #d7d3c7;
+}
+
+.privacy-policy a {
+    color: #d7d3c7;
+}
+
+/* Header formatting */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 8px solid #bb0826;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#logo {
+    padding-bottom: 14px;
+}
+
+.account-header-links {
+    padding: 10px 0px 10px 0px;
+}
+
+.account-header-links a {
+    padding: 0px 9px 0px 9px;
+}
+
+/* Bootstrap overrides */
+.navbar-nav>li {
+    float: none;
+}
