@@ -7,21 +7,6 @@ body {
     color: #d7d3c7;
 }
 
-div.privacy-policy {
-    min-height: 56px;
-    line-height: 56px;
-    background-color: #000;
-    color: #d7d3c7;
-    font-size: 12px;
-}
-
-.privacy-policy a {
-    background-color: #000;
-    color: #d7d3c7;
-    vertical-align: middle;
-    margin: 0px 9px 0px 9px;
-}
-
 /* Header formatting */
 .top-border {
     border-top: 8px solid #bb0826;
@@ -45,6 +30,60 @@ div.privacy-policy {
 
 .tab-pane {
     height: 144px;
+}
+
+.tab-pane .row .cell {
+    margin: 16px 0px;
+    height: 112px;
+    border-right: 1px solid #e0e3e2;
+    text-align: center;
+}
+
+.tab-pane .row .cell a {
+    color: #44464a;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+.tab-pane .row .cell a.rewards-home {
+    font-weight: bold;
+    color: #bb0826;
+}
+
+/* Footer formatting */
+.footer {
+    font-size: 12px;
+}
+
+div.footer-help {
+    min-height: 72px;
+    line-height: 72px;
+    font-weight: bold;
+    vertical-align: center;
+}
+
+div.footer-help a {
+    margin: 0px 9px;
+}
+
+div.footer-links {
+    min-height: 230px;
+    line-height: 24px;
+}
+
+div.privacy-policy {
+    min-height: 56px;
+    line-height: 56px;
+    background-color: #000;
+    color: #d7d3c7;
+    font-size: 12px;
+}
+
+.privacy-policy a {
+    background-color: #000;
+    color: #d7d3c7;
+    vertical-align: middle;
+    margin: 0px 9px 0px 9px;
 }
 
 /* Bootstrap overrides */
