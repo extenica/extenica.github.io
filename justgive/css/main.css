@@ -7,6 +7,14 @@ body {
     color: #d7d3c7;
 }
 
+a.margin-l {
+    margin-left: 9px;
+}
+
+a.margin-r {
+    margin-right: 9px;
+}
+
 /* Header formatting */
 .top-border {
     border-top: 8px solid #bb0826;
@@ -23,20 +31,39 @@ body {
 }
 
 .account-header-links a {
-    margin: 0px 9px 0px 9px;
     font-size: 13px;
     color: #44464a;
 }
 
+.account-info {
+    font-size: 13px;
+    font-weight: bold;
+    color: #bb0826;
+}
+
+.tabpanel-background {
+    background-color: #f3f4f3;
+    margin: 0px -15px;
+}
+
 .tab-pane {
-    height: 144px;
+    height: 177px;
+    background-color: #fff;
+}
+
+.tab-pane .row {
+    margin: 0px;
 }
 
 .tab-pane .row .cell {
     margin: 16px 0px;
-    height: 112px;
-    border-right: 1px solid #e0e3e2;
+    height: 145px;
     text-align: center;
+    border-right: 1px solid #e0e3e2;
+}
+
+.tab-pane .row .cell.noborder {
+    border-right: none;
 }
 
 .tab-pane .row .cell a {
@@ -45,9 +72,24 @@ body {
     display: inline-block;
 }
 
+.tab-pane .row .cell a img {
+    margin-bottom: 20px;
+}
+
 .tab-pane .row .cell a.rewards-home {
     font-weight: bold;
     color: #bb0826;
+}
+
+.tab-shadow {
+    height: 5px;
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#afb0b0+0,c9c9c9+100 */
+    background: #afb0b0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #afb0b0 0%, #c9c9c9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #afb0b0 0%,#c9c9c9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #afb0b0 0%,#c9c9c9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afb0b0', endColorstr='#c9c9c9',GradientType=0 ); /* IE6-9 */
 }
 
 /* Footer formatting */
@@ -60,10 +102,7 @@ div.footer-help {
     line-height: 72px;
     font-weight: bold;
     vertical-align: center;
-}
-
-div.footer-help a {
-    margin: 0px 9px;
+    padding: 0px 30px;
 }
 
 div.footer-links {
@@ -83,7 +122,6 @@ div.privacy-policy {
     background-color: #000;
     color: #d7d3c7;
     vertical-align: middle;
-    margin: 0px 9px 0px 9px;
 }
 
 /* Bootstrap overrides */
