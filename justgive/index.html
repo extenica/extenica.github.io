@@ -30,18 +30,83 @@
             </div>
         </div>
 
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav nav-justified">
-                    <li><a href="#">My Rewards</a></li>
-                    <li><a href="#">Earn</a></li>
-                    <li><a href="#">Use</a></li>
-                    <li><a href="#">Share</a></li>
-                </ul>
+        <!-- Nav tabs -->
+        <ul class="nav nav-pills nav-justified"  role="tablist">
+            <li><a href="#myrewards" aria-controls="myrewards" role="tab" data-toggle="tab">My Rewards</a></li>
+            <li><a href="#earn" aria-controls="earn" role="tab" data-toggle="tab">Earn</a></li>
+            <li><a href="#use" aria-controls="use" role="tab" data-toggle="tab">Use</a></li>
+            <li><a href="#share" aria-controls="share" role="tab" data-toggle="tab">Share</a></li>
+        </ul>
+        
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane" id="myrewards">
+                <div class="row">
+                    <div class="col-md-3">
+                        My Rewards Home
+                    </div>
+                    <div class="col-md-3">
+                        Account Activity
+                    </div>
+                    <div class="col-md-3">
+                        Wish List
+                    </div>
+                    <div class="col-md-3">
+                        Customize rewards preferences
+                    </div>
+                </div>
+                
             </div>
-        </nav>
+            <div role="tabpanel" class="tab-pane" id="earn">
+                <div class="row">
+                    <div class="col-md-4">
+                        How to earn faster
+                    </div>
+                    <div class="col-md-4">
+                        Earn More Mall
+                    </div>
+                    <div class="col-md-4">
+                        Book Travel<br/>
+                        Earn Locally<br/>
+                        Earning Calculator<br/>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="use">
+                <div class="row">
+                    <div class="col-md-3">
+                        Redeem to Wels Fargo accounts
+                    </div>
+                    <div class="col-md-3">
+                        Book Travel
+                    </div>
+                    <div class="col-md-3">
+                        Gift Cards
+                    </div>
+                    <div class="col-md-3">
+                        Merchandise<br/>
+                        Digital Downloads<br/>
+                        Auctions<br/>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="share">
+                <div class="row">
+                    <div class="col-md-4">
+                        Pool rewards with others
+                    </div>
+                    <div class="col-md-4">
+                        Gift rewards to others
+                    </div>
+                    <div class="col-md-4">
+                        Donate rewards to charity
+                    </div>
+                </div>
+            </div>            
+        </div>
         <!-- END HEADER -->
 
+        <!-- BEGIN FOOTER -->
         <div class="footer">
             <div class="row text-right darkgrey">
                 <a href="#">Help</a>
@@ -93,6 +158,8 @@
             </div>
             
         </div>
+        <!-- END FOOTER -->
+
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
