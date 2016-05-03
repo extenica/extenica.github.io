@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <div class="container">
-        <hr/>
+    <div class="container-fluid">
         <!-- BEGIN HEADER -->
         <div class="header row">
+            <div class="top-border"></div>
             <div class="col-md-6" id="logo">
                 <img src="images/wfr-logo.jpg" />
             </div>
@@ -31,13 +31,17 @@
         </div>
 
         <!-- Nav tabs -->
-        <ul class="nav nav-pills nav-justified"  role="tablist">
-            <li><a href="#myrewards" aria-controls="myrewards" role="tab" data-toggle="tab">My Rewards</a></li>
-            <li><a href="#earn" aria-controls="earn" role="tab" data-toggle="tab">Earn</a></li>
-            <li><a href="#use" aria-controls="use" role="tab" data-toggle="tab">Use</a></li>
-            <li><a href="#share" aria-controls="share" role="tab" data-toggle="tab">Share</a></li>
-        </ul>
-        
+        <div class="row darkgrey">
+            <div class="container">
+                <ul class="nav nav-pills nav-justified" role="tablist">
+                    <li><a href="#myrewards" aria-controls="myrewards" role="tab" data-toggle="tab">My Rewards</a></li>
+                    <li><a href="#earn" aria-controls="earn" role="tab" data-toggle="tab">Earn</a></li>
+                    <li><a href="#use" aria-controls="use" role="tab" data-toggle="tab">Use</a></li>
+                    <li><a href="#share" aria-controls="share" role="tab" data-toggle="tab">Share</a></li>
+                </ul>
+            </div>
+        </div>
+
         <!-- Tab panes -->
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane" id="myrewards">
@@ -55,7 +59,7 @@
                         Customize rewards preferences
                     </div>
                 </div>
-                
+
             </div>
             <div role="tabpanel" class="tab-pane" id="earn">
                 <div class="row">
@@ -66,9 +70,7 @@
                         Earn More Mall
                     </div>
                     <div class="col-md-4">
-                        Book Travel<br/>
-                        Earn Locally<br/>
-                        Earning Calculator<br/>
+                        Book Travel<br/> Earn Locally<br/> Earning Calculator<br/>
                     </div>
                 </div>
             </div>
@@ -84,9 +86,8 @@
                         Gift Cards
                     </div>
                     <div class="col-md-3">
-                        Merchandise<br/>
-                        Digital Downloads<br/>
-                        Auctions<br/>
+                        Merchandise<br/> Digital Downloads<br/> Auctions
+                        <br/>
                     </div>
                 </div>
             </div>
@@ -102,61 +103,64 @@
                         Donate rewards to charity
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>
         <!-- END HEADER -->
 
         <!-- BEGIN FOOTER -->
-        <div class="footer">
-            <div class="row text-right darkgrey">
-                <a href="#">Help</a>
-                <a href="#">Account Settings</a>
-            </div>
-
-            <div class="row darkgrey">
-                <div class="col-md-3">
-                    <a href="#"><strong>My Rewards</strong></a><br/>
-                    <a href="#">Rewards Summary</a><br/>
-                    <a href="#">Wish List</a><br/>
-                    <a href="#">Account Activity</a><br/>
-                    <a href="#">Customize Rewards Preferences</a><br/>
-                </div>
-                <div class="col-md-3">
-                    <a href="#"><strong>Earn</strong></a><br/>
-                    <a href="#">How to earn faster</a><br/>
-                    <a href="#">Earn More Mall</a><br/>
-                    <a href="#">Book Travel</a><br/>
-                    <a href="#">Earn Locally</a><br/>
-                    <a href="#">Earning Calculator</a><br/>
-                </div>
-                <div class="col-md-3">
-                    <a href="#"><strong>Use</strong></a><br/>
-                    <a href="#">Redeem to Wells Fargo accounts</a><br/>
-                    <a href="#">Book Travel</a><br/>
-                    <a href="#">Gift Cards</a><br/>
-                    <a href="#">Merchandise</a><br/>
-                    <a href="#">Digital Downloads</a><br/>
-                    <a href="#">Auctions</a><br/>
-                </div>
-                <div class="col-md-3">
-                    <a href="#"><strong>Earn</strong></a><br/>
-                    <a href="#">Pool rewards with others</a><br/>
-                    <a href="#">Gift rewards to others</a><br/>
-                    <a href="#">Donate rewards to charity</a><br/>
-                </div>
-            </div>
-
-            <div class="row privacy-policy">
-                <div class="col-md-6 text-left">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms and Conditions</a>
+        <div class="footer row darkgrey">
+            <div class="container">
+                <div class="row text-right">
+                    <a href="#">Help</a>
+                    <a href="#">Account Settings</a>
                 </div>
 
-                <div class="col-md-6 text-right">
-                    Copyright &copy; 1999-2016 Wells Fargo Bank, N.A. All Rights Reserved.
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="#"><strong>My Rewards</strong></a><br/>
+                        <a href="#">Rewards Summary</a><br/>
+                        <a href="#">Wish List</a><br/>
+                        <a href="#">Account Activity</a><br/>
+                        <a href="#">Customize Rewards Preferences</a><br/>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#"><strong>Earn</strong></a><br/>
+                        <a href="#">How to earn faster</a><br/>
+                        <a href="#">Earn More Mall</a><br/>
+                        <a href="#">Book Travel</a><br/>
+                        <a href="#">Earn Locally</a><br/>
+                        <a href="#">Earning Calculator</a><br/>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#"><strong>Use</strong></a><br/>
+                        <a href="#">Redeem to Wells Fargo accounts</a><br/>
+                        <a href="#">Book Travel</a><br/>
+                        <a href="#">Gift Cards</a><br/>
+                        <a href="#">Merchandise</a><br/>
+                        <a href="#">Digital Downloads</a><br/>
+                        <a href="#">Auctions</a><br/>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#"><strong>Earn</strong></a><br/>
+                        <a href="#">Pool rewards with others</a><br/>
+                        <a href="#">Gift rewards to others</a><br/>
+                        <a href="#">Donate rewards to charity</a><br/>
+                    </div>
                 </div>
             </div>
-            
+
+            <div class="privacy-policy row">
+                <div class="container">
+                    <div class="col-md-6 text-left">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms and Conditions</a>
+                    </div>
+
+                    <div class="col-md-6 text-right">
+                        Copyright &copy; 1999-2016 Wells Fargo Bank, N.A. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- END FOOTER -->
 
