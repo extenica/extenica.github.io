@@ -32,7 +32,7 @@ a.margin-r {
 
 .account-header-links a {
     font-size: 13px;
-    color: #44464a;
+    color: #404040;
 }
 
 .account-info {
@@ -143,6 +143,8 @@ div.footer-help {
 div.footer-links {
     min-height: 230px;
     line-height: 24px;
+    border-top: 1px solid #000;
+    padding-top: 30px;
 }
 
 div.privacy-policy {
