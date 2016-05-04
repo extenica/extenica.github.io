@@ -41,6 +41,41 @@ a.margin-r {
     color: #bb0826;
 }
 
+.navbar-nav>li {
+    float: none;
+}
+
+.nav-pills>li>a {
+    color: #d7d3c7;
+    background-color: #44464a;
+    padding: 14px 10px 19px;
+    font-size: 16px;
+    line-height: 18px;
+    border-radius: 0px;
+    border-top: 4px solid transparent;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover .nav-pills>li>a:focus, .nav-pills>li>a:hover {
+    color: #fff;
+    background-color: #000;
+    border-top: 4px solid #bb0826;
+    font-weight: 700;
+    margin: 0 -1px;
+}
+
+/* Triangles for selected nav items */
+.nav-pills>li.active>a:after {
+    content: "";
+    position: absolute;
+    margin-left: -8px;
+    left: 50%;
+    bottom: 0;
+    border-style: solid;
+    border-width: 0 8px 8px;
+    border-color: transparent transparent #fff;
+    z-index: 2;
+}
+
 .tabpanel-background {
     background-color: #f3f4f3;
     margin: 0px -15px;
@@ -122,32 +157,4 @@ div.privacy-policy {
     background-color: #000;
     color: #d7d3c7;
     vertical-align: middle;
-}
-
-/* Bootstrap overrides */
-.navbar-nav>li {
-    float: none;
-}
-
-.nav-pills>li>a {
-    color: #d7d3c7;
-    background-color: #44464a;
-    border-radius: 0px;
-}
-
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover .nav-pills>li>a:focus, .nav-pills>li>a:hover {
-    box-shadow: 0px 4px 0px 0px #bb0826 inset;
-    color: #fff;
-    background-color: #000;
-}
-
-/* Triangles for selected nav items */
-.nav-pills>li.active>a:after {
-  content: "";
-  position: relative;
-  margin-left: -20px;
-  top: 5px;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-bottom: 7px solid white;
 }
