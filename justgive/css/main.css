@@ -21,14 +21,7 @@ a.margin-r {
     margin-bottom: 14px;
 }
 
-@media screen and (max-width: 768px) {
-    .top-border {
-        border-top: 4px solid #bb0826;
-        margin-bottom: 8px;
-    }
-}
-
-#logo {
+.logo {
     margin-bottom: 14px;
 }
 
@@ -46,6 +39,33 @@ a.margin-r {
     font-size: 13px;
     font-weight: bold;
     color: #bb0826;
+}
+
+@media screen and (max-width: 768px) {
+    .top-border {
+        border-top: 4px solid #bb0826;
+        margin-bottom: 8px;
+    }
+
+    .logo {
+        margin-bottom: 8px;
+    }
+
+    .account-info {
+        font-size: 12px;
+        line-height: 32px;
+    }
+
+    .glyphicon-menu-hamburger {
+        font-size: 24px;
+        line-height: 32px;
+        color: #44464a;
+    }
+    
+    .dropdown-menu li a {
+        line-height: 24px;
+        border-bottom: 1px solid #e0e3e2;
+    }
 }
 
 .navbar-nav>li {
