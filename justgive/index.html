@@ -20,15 +20,17 @@
             <div class="top-border"></div>
             <div class="container">
                 <div class="col-md-6" id="logo">
-                    <img src="images/wfr-logo.jpg" />
+                    <img src="images/GoFar-logo-large.jpg" />
                 </div>
 
                 <div class="col-md-6">
                     <div class="account-header-links text-right hidden-xs">
+                        <a href="https://www.wellsfargo.com/" class="margin-r">wellsfargo.com</a>
                         <a href="#" class="margin-r">Rewards ID [ID]</a>
-                        <a href="https://gofarrewards.wf.com/#/AccountSettings" class="margin-r">Account Settings</a>
+                        <a href="https://gofarrewards.wf.com/#/AccountSettings" class="margin-r">Settings</a>
                         <a href="https://gofarrewards.wf.com/#/Help" class="margin-r">Help</a>
-                        <a href="#">Logout</a>
+                        <a data-toggle="modal" href="#" data-target="#spanishModal" class="margin-r">Español</a>
+                        <a href="#">Sign Off</a>
                     </div>
 
                     <div class="account-info text-right">
@@ -169,59 +171,43 @@
     <!-- BEGIN FOOTER -->
     <div class="footer row darkgrey">
         <div class="container">
-            <div class="footer-help row text-right">
-                <a href="https://gofarrewards.wf.com/#/Help" class="margin-r">Help</a>
-                <a href="https://gofarrewards.wf.com/#/AccountSettings">Account Settings</a>
-            </div>
-
             <div class="footer-links row">
-                <div class="col-md-3">
-                    <a href="#"><strong>My Rewards</strong></a><br/>
-                    <a href="https://gofarrewards.wf.com/#/Welcome">Rewards Summary</a><br/>
-                    <a href="https://gofarrewards.wf.com/#/wishlist">Wish List</a><br/>
-                    <a href="https://gofarrewards.wf.com/#/accountactivity">Account Activity</a><br/>
-                    <a href="https://gofarrewards.wf.com/#/AccountSettings">Customize Rewards Preferences</a><br/>
+                <div class="col-md-6 text-left">
+                    <a href="https://gofarrewards.wf.com/#/Help">Help</a>
+                    <a href="https://gofarrewards.wf.com/#/ContactUs" class="margin-l">Contact Us</a>
                 </div>
-                <div class="col-md-3">
-                    <a href="#"><strong>Earn</strong></a><br/>
-                    <a href="https://gofarrewards.wf.com/#/EarnFaster">How to earn faster</a><br/>
-                    <a href="#">Earn More Mall</a><br/>
-                    <a href="#">Book Travel</a><br/>
-                    <a href="#">Earn Locally</a><br/>
-                    <a href="#">Earning Calculator</a><br/>
-                </div>
-                <div class="col-md-3">
-                    <a href="#"><strong>Use</strong></a><br/>
-                    <a href="https://gofarrewards.wf.com/#/Redeem">Redeem to Wells Fargo accounts</a><br/>
-                    <a href="https://gofarrewardstravel.wf.com/#/deeplink/mont/use">Book Travel</a><br/>
-                    <a href="https://gofarrewards.wf.com/#/Catalog/Gift%20Cards">Gift Cards</a><br/>
-                    <a href="https://gofarrewards.wf.com/#/catalog/Merchandise">Merchandise</a><br/>
-                    <a href="https://gofarrewardsdigital.wf.com/#/deeplink/tfc">Digital Downloads</a><br/>
-                    <a href="https://gofarrewards.wf.com/#/auction">Auctions</a><br/>
-                </div>
-                <div class="col-md-3">
-                    <a href="#"><strong>Share</strong></a><br/>
-                    <a href="https://gofarrewards.wf.com/#/PoolingRewardLanding">Pool rewards with others</a><br/>
-                    <a href="https://gofarrewards.wf.com/#/GiftRewards">Gift rewards to others</a><br/>
-                    <a href="https://GoFarRewardsDonate.wf.com">Donate rewards to charity</a><br/>
+                <div class="col-md-6 text-right">
+                    <a data-toggle="modal" href="#" data-target="#spanishModal" class="margin-r">Español</a>
+                    <a href="https://gofarrewards.wf.com/#/AccountSettings" class="margin-r">Account Settings</a>
+                    <a href="https://www.wellsfargo.com/privacy-security/" class="margin-r">Privacy Policy</a>
+                    <a href="https://gofarrewards.wf.com/#/tnc">Terms and Conditions</a>                    
                 </div>
             </div>
         </div>
 
-        <div class="privacy-policy row">
-            <div class="container">
-                <div class="col-md-6 text-left">
-                    <a href="https://www.wellsfargo.com/privacy-security/">Privacy Policy</a>
-                    <a href="https://gofarrewards.wf.com/#/tnc" class="margin-l">Terms and Conditions</a>
-                </div>
-
-                <div class="col-md-6 text-right">
-                    Copyright &copy; 1999-2016 Wells Fargo Bank, N.A. All Rights Reserved.
-                </div>
+        <div class="copyright row">
+            <div class="container text-right">
+                Copyright &copy; 1999-2016 Wells Fargo Bank, N.A. All Rights Reserved.
             </div>
         </div>
     </div>
     <!-- END FOOTER -->
+    
+    <!-- MODAL DIALOG FOR SPANISH -->
+    <div class="modal fade" id="spanishModal" tabindex="-1" role="dialog" aria-labelledby="spanishModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Español</h4>
+                </div>
+                <div class="modal-body">
+                    Para asistencia en español, llame al Centro de Servicios de Go Far Rewards al 1-877-517-1358 y marque 2.
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
