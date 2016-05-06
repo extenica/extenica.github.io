@@ -2,6 +2,10 @@ body {
     font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /* General purpose CSS classes */
 .darkgrey, .darkgrey a {
     background-color: #44464a;
@@ -14,6 +18,18 @@ a.margin-l {
 
 a.margin-r {
     margin-right: 9px;
+}
+
+.btn-default {
+    color: #ae2573;
+    background-color: #fff;
+    border-color: #ae2573;
+}
+
+.btn-reverse {
+    color: #fff;
+    background-color: #ae2573;
+    border-color: #fff;
 }
 
 /* Header links */
@@ -150,10 +166,10 @@ a.margin-r {
     margin-bottom: 20px;
 }
 
-.tab-pane .row .cell a.rewards-home {
+/*.tab-pane .row .cell a.rewards-home {
     font-weight: bold;
     color: #bb0826;
-}
+}*/
 
 .tab-shadow {
     height: 5px;
@@ -235,4 +251,37 @@ div.copyright {
         line-height: 24px;
         text-align: center;
     }
+}
+
+/* Carousel */
+.carousel-caption {
+    text-align: left;
+    text-shadow: none;
+    color: #000;
+    top: 33%;
+    left: 15%;
+}
+
+.carousel-caption h3 {
+    font-size: 36px;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+#topCharitiesCarousel 
+.topcharity {
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.topcharity .btn {
+    margin: 10px;
 }
