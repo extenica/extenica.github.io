@@ -64,9 +64,17 @@ a.margin-r {
         color: #44464a;
     }
     
-    .dropdown-menu li a {
+    .dropdown-menu {
+        min-width: 400px;
+    }
+    
+    .dropdown-menu li {
         line-height: 24px;
         border-bottom: 1px solid #e0e3e2;
+    }
+    
+    .dropdown-menu li>span, .dropdown-menu li>a {
+        padding: 5px 20px;
     }
 }
 
@@ -159,7 +167,7 @@ a.margin-r {
 
 /* Small screen nav bar */
 @media screen and (max-width: 768px) {
-    .nav-justified > li {
+    .nav-justified>li {
         display: table-cell;
         width: 1%;
     }
@@ -170,6 +178,28 @@ a.margin-r {
         line-height: 14px;
         margin-bottom: 0px;
     }
+    
+    .tab-pane .row .cell {
+        margin: 10px 0px;
+        height: 32px;
+        text-align: left;
+        border-right: none;
+        border-bottom: 1px solid #e0e3e2;
+    }
+    
+    .tab-pane .row .cell.noborder {
+        border-bottom: none;
+    }
+
+    .tab-pane .row .cell a {
+        margin-top: 0px;
+    }
+
+    .tab-pane .row .cell a img {
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+    
 }
 
 /* Footer formatting */
@@ -182,9 +212,20 @@ div.footer-links {
     line-height: 40px;
 }
 
-div.copyright {
-    min-height: 51px;
-    line-height: 51px;
+div.copyright, div.copyright a {
     background-color: #000;
     color: #d7d3c7;
+}
+
+div.copyright {
+    line-height: 51px;
+    text-align: right;
+}
+
+/* Small footer formatting */
+@media screen and (max-width: 768px) {
+    div.copyright {
+        line-height: 24px;
+        text-align: center;
+    }
 }
