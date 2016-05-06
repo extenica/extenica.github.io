@@ -62,7 +62,7 @@
                     <li><a href="#myrewards" aria-controls="myrewards" role="tab" data-toggle="tab">My Rewards</a></li>
                     <li><a href="#earn" aria-controls="earn" role="tab" data-toggle="tab">Earn</a></li>
                     <li><a href="#use" aria-controls="use" role="tab" data-toggle="tab">Use</a></li>
-                    <li><a href="#share" aria-controls="share" role="tab" data-toggle="tab">Share</a></li>
+                    <li id="sharenav" class="highlit"><a href="#share" aria-controls="share" role="tab" data-toggle="tab">Share</a></li>
                 </ul>
             </div>
         </div>
@@ -302,6 +302,12 @@
     <!-- Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
+
+    <script>
+        $( ".nav-pills>li>a" ).click(function() {
+            $("#sharenav").removeClass("highlit");
+        });
+    </script>
 
 </body>
 

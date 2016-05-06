@@ -85,8 +85,8 @@ a.margin-r {
 }
 
 .nav-pills>li>a {
-    color: #d7d3c7;
-    background-color: #44464a;
+    /*color: #d7d3c7;
+    background-color: #44464a;*/
     padding: 14px 10px 19px;
     font-size: 16px;
     line-height: 18px;
@@ -94,7 +94,7 @@ a.margin-r {
     border-top: 4px solid transparent;
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover .nav-pills>li>a:focus, .nav-pills>li>a:hover {
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover .nav-pills>li>a:focus, .nav-pills>li>a:hover, .nav-pills>li.highlit>a {
     color: #fff;
     background-color: #000;
     border-top: 4px solid #bb0826;
