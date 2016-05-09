@@ -2,7 +2,7 @@ body {
     font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -301,4 +301,9 @@ div.copyright {
 
 #topCharitiesCarousel .topcharity .btn {
     margin: 10px;
+}
+
+/* Find a charity by cause */
+.find-a-charity ul {
+    list-style: none;
 }
